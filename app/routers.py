@@ -4,6 +4,7 @@ from pydantic import BaseModel
 
 router = APIRouter()
 
+
 @router.post("/")
 async def hello_world():
     return "Hello World!"
