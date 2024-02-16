@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List
 
 from app.routers import router
-from app.database import setup_db
+from app.db.database import setup_db
 
 app = FastAPI()
 
