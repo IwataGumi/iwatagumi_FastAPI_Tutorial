@@ -14,3 +14,17 @@
 
 ## 環境構築
 
+1. 依存パッケージのインストールをする
+```bash
+$ pip install -r requirements.txt
+```
+
+2. データベース、テーブルの作成
+```bash
+$ alembic upgrade head
+```
+
+3. サーバーを起動
+```bash
+$ python run.py
+```
